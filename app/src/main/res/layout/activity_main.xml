@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.marcadorplacar.MainActivity">
+
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="#283593"
+        android:onClick="reset"
+        android:text="@string/reset" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/timeA"
+                android:textColor="#283593"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pontosA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="24dp"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textColor="#1a237e"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/touchDownA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="touchDownA"
+                android:text="@string/td" />
+
+            <Button
+                android:id="@+id/inc1A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="inc1A"
+                android:text="@string/inc1" />
+
+
+            <Button
+                android:id="@+id/inc2A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="inc2A"
+                android:text="@string/inc2" />
+
+            <Button
+                android:id="@+id/fieldGoalA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="fieldGoalA"
+                android:text="@string/fieldGoal" />
+
+            <Button
+                android:id="@+id/safetyA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="safetyA"
+                android:text="@string/safe" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="match_parent"
+            android:background="#283593"></View>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/timeB"
+                android:textColor="#283593"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pontosB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="24dp"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textColor="#283593"
+                android:textSize="48sp" />
+
+            <Button
+                android:id="@+id/touchDownB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="touchDownB"
+                android:text="@string/td" />
+
+            <Button
+                android:id="@+id/inc1B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="inc1B"
+                android:text="@string/inc1" />
+
+            <Button
+                android:id="@+id/inc2B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="inc2B"
+                android:text="@string/inc2" />
+
+            <Button
+                android:id="@+id/fieldGoalB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="fieldGoalB"
+                android:text="@string/fieldGoal" />
+
+            <Button
+                android:id="@+id/safetyB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="safetyB"
+                android:text="@string/safe" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

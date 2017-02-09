@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Marcador Placar</string>
+    <string name="timeA">Time A</string>
+    <string name="timeB">Time B</string>
+    <string name="td">Touchdown</string>
+    <string name="inc1">+1</string>
+    <string name="inc2">+2</string>
+    <string name="fieldGoal">Field Goal</string>
+    <string name="safe">Safety</string>
+    <string name="reset">Reiniciar</string>
+</resources>
